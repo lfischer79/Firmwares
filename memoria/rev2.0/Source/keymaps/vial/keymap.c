@@ -26,7 +26,7 @@ led_config_t g_led_config = { {
   8, 8, 8
 } };
 
-void rgb_matrix_indicators_advanced_user(uint8_t led_min, uint8_t led_max) {
+rgb_matrix_indicators_advanced_user(uint8_t led_min, uint8_t led_max) {
     if (layer_state_is (1)) {
         RGB_MATRIX_INDICATOR_SET_COLOR(2, 60, 15, 15);
     } else {
